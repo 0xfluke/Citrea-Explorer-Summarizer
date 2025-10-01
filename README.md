@@ -11,4 +11,5 @@ After defining the source of data, we started creating a basic Python code to:
       - Convert the JSON data from the constructed URL to a Python dictionary (I'm not sure why we had to do this)
       - Extract all relevant data from the defined dictionary by using necessary keys like "To", "From", "Timestamp", "Value"
       - Convert the default timestamp data into a more readable version (This part is a bit complicated for me)
+      - Convert the VALUE data to its corresponding outlook with decimals
       - Assemble the final sentence by defining a summary object with f-strings
